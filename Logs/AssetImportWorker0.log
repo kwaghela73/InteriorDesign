@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58170
+64097
 Successfully changed project path to: /Users/kinjal/Documents/XRB/Prototypes/Week02/Interior Design
 /Users/kinjal/Documents/XRB/Prototypes/Week02/Interior Design
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,13 +56,13 @@ Successfully changed project path to: /Users/kinjal/Documents/XRB/Prototypes/Wee
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8219348800] Host "[IP] 10.33.47.28 [Port] 0 [Flags] 2 [Guid] 763819219 [EditorId] 763819219 [Version] 1048832 [Id] OSXEditor(0,Mehuls-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8222953280] Host "[IP] 172.20.10.8 [Port] 0 [Flags] 2 [Guid] 6831648 [EditorId] 6831648 [Version] 1048832 [Id] OSXEditor(0,Mehuls-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8219348800] Host "[IP] 10.33.47.28 [Port] 0 [Flags] 2 [Guid] 763819219 [EditorId] 763819219 [Version] 1048832 [Id] OSXEditor(0,Mehuls-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8222953280] Host "[IP] 172.20.10.8 [Port] 0 [Flags] 2 [Guid] 6831648 [EditorId] 6831648 [Version] 1048832 [Id] OSXEditor(0,Mehuls-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 48.29 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 7.25 ms.
+Refreshing native plugins compatible for Editor in 43.14 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 1.45 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/kinjal/Documents/XRB/Prototypes/Week02/Interior Design/Assets
@@ -78,47 +78,47 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56958
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56311
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002825 seconds.
-- Loaded All Assemblies, in  0.268 seconds
+Registered in 0.002520 seconds.
+- Loaded All Assemblies, in  0.244 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 81 ms
+Android Extension - Scanning For ADB Devices 68 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.317 seconds
-Domain Reload Profiling: 585ms
-	BeginReloadAssembly (82ms)
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 538ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
 		LoadAssemblies (81ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (87ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (317ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (294ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (280ms)
+		SetupLoadedEditorAssemblies (258ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (184ms)
+			InitializePlatformSupportModulesInManaged (169ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (65ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -127,8 +127,8 @@ Domain Reload Profiling: 585ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.749 seconds
-Refreshing native plugins compatible for Editor in 6.84 ms, found 14 plugins.
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 5.68 ms, found 14 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -140,8 +140,9 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    26    0    26    0     0     53      0 --:--:-- --:--:-- --:--:--    53100    26    0    26    0     0     53      0 --:--:-- --:--:-- --:--:--    53
-02/01 19:47:39.316 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    26    0    26    0     0     45      0 --:--:-- --:--:-- --:--:--    45100    26    0    26    0     0     45      0 --:--:-- --:--:-- --:--:--    45
+14/01 00:54:46.993 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
+14/01 00:54:46.993 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -152,51 +153,51 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.279 seconds
-Domain Reload Profiling: 2026ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  1.328 seconds
+Domain Reload Profiling: 2061ms
+	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
+		CreateAndSetChildDomain (19ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (603ms)
-		LoadAssemblies (394ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (387ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (240ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (170ms)
-			ScanForSourceGeneratedMonoScriptInfo (30ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1279ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (167ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1328ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1101ms)
+		SetupLoadedEditorAssemblies (1129ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (906ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (951ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 [OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 6.92 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 8.01 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
 Unloading 8678 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 171 unused Assets / (0.6 MB). Loaded Objects now: 9118.
-Memory consumption went from 376.5 MB to 375.9 MB.
-Total: 5.571084 ms (FindLiveObjects: 0.509792 ms CreateObjectMapping: 0.114125 ms MarkObjects: 4.610458 ms  DeleteObjects: 0.335750 ms)
+Memory consumption went from 377.1 MB to 376.5 MB.
+Total: 6.104458 ms (FindLiveObjects: 0.452000 ms CreateObjectMapping: 0.119208 ms MarkObjects: 5.151458 ms  DeleteObjects: 0.380667 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -213,281 +214,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 92764.641425 seconds.
-  path: Assets/nappin/House Props Softpack/Textures/(Txt)GradientBeige.png
-  artifactKey: Guid(ce207ba7fd9e7f047867bbf272711c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Textures/(Txt)GradientBeige.png using Guid(ce207ba7fd9e7f047867bbf272711c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096fbbe9e26a56f005261e33bc94151b') in 0.135802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/nappin/House Props Softpack/Textures/(Txt)GradientOrange.png
-  artifactKey: Guid(1be709cd9dfa27c48a678cdacc829f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Textures/(Txt)GradientOrange.png using Guid(1be709cd9dfa27c48a678cdacc829f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707681f52dd515bd39738e22999ac4c5') in 0.005358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/nappin/House Props Softpack/Textures/(Txt)GradientBrown.png
-  artifactKey: Guid(a5fbcf512e323074384f3d7eb1b798f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Textures/(Txt)GradientBrown.png using Guid(a5fbcf512e323074384f3d7eb1b798f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b4520d210541298253a4b8785658dc') in 0.006546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/nappin/House Props Softpack/Textures/(Txt)GradientBlue.png
-  artifactKey: Guid(bbea79d6aa038d54bab0fbdb23379cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Textures/(Txt)GradientBlue.png using Guid(bbea79d6aa038d54bab0fbdb23379cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3534711e4dbb7a3a1ede37ddcdf5b861') in 0.004870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/nappin/House Props Softpack/Textures/(Txt)GradientDarkbrown.png
-  artifactKey: Guid(a350ac53491e75b4e843bb6e1705a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Textures/(Txt)GradientDarkbrown.png using Guid(a350ac53491e75b4e843bb6e1705a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914dfb5a91fd70d3e7d1e96d1f25b629') in 0.006610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/nappin/House Props Softpack/Textures/(Txt)GradientDarkgreen.png
-  artifactKey: Guid(8ade6825967f29e4e9447897ae3c8878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Textures/(Txt)GradientDarkgreen.png using Guid(8ade6825967f29e4e9447897ae3c8878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbd2562c23264cf79d3962452cf8390') in 0.005451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1310.046950 seconds.
-  path: Assets/Samples/Meta MR Utility Kit/71.0.0/Virtual Home/Furniture/VH_WINDOWLIGHTBEAM.prefab
-  artifactKey: Guid(72ecaa0f4aaa5a846b00a73df9d9644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Meta MR Utility Kit/71.0.0/Virtual Home/Furniture/VH_WINDOWLIGHTBEAM.prefab using Guid(72ecaa0f4aaa5a846b00a73df9d9644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0c3c7afc2990b62c7ca3ee8e9c86a3') in 0.246112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 9.623521 seconds.
-  path: Assets/Samples/Meta MR Utility Kit/71.0.0/Virtual Home/Furniture/BoxCardBoard
-  artifactKey: Guid(48f38f450c143224abfb981666736114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Meta MR Utility Kit/71.0.0/Virtual Home/Furniture/BoxCardBoard using Guid(48f38f450c143224abfb981666736114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab6b7f476764c182aeee952ea28832d') in 0.000367 seconds
+  Time since last request: 121143.873585 seconds.
+  path: Assets/Samples/Meta MR Utility Kit/71.0.0/Virtual Home/VirtualHome 1.unity
+  artifactKey: Guid(8a1b0d5da01514eec80ecb2174bdb94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meta MR Utility Kit/71.0.0/Virtual Home/VirtualHome 1.unity using Guid(8a1b0d5da01514eec80ecb2174bdb94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d65b662df0a73434f8e1353edd8c4c') in 0.001531 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 29.192298 seconds.
-  path: Assets/Prefabs/Menu.prefab
-  artifactKey: Guid(e82111286531e42a0b7250206821a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Menu.prefab using Guid(e82111286531e42a0b7250206821a8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cd60fb2769b1e225f991a923f85557') in 0.149634 seconds
+  Time since last request: 34.347583 seconds.
+  path: Assets/Scenes/VirtualHome.unity
+  artifactKey: Guid(8a1b0d5da01514eec80ecb2174bdb94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VirtualHome.unity using Guid(8a1b0d5da01514eec80ecb2174bdb94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929e24e672dae5536d98d92d6aecf31b') in 0.000464 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 604
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 105.820877 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)BathroomSink.prefab
-  artifactKey: Guid(fa3db0668a5ddff4c899e2c3fd2c0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)BathroomSink.prefab using Guid(fa3db0668a5ddff4c899e2c3fd2c0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6948344242ee76227942619e28563bdf') in 0.073322 seconds
+  Time since last request: 15.001076 seconds.
+  path: Packages/com.unity.burst/package.json
+  artifactKey: Guid(60714b3a36613ab2918a1439869a826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.burst/package.json using Guid(60714b3a36613ab2918a1439869a826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503727c34152e140cb977ab58d554a07') in 0.036901 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 41
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Shelf1.prefab
-  artifactKey: Guid(706836d784292a74097d31519e9337fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Shelf1.prefab using Guid(706836d784292a74097d31519e9337fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adfa063829d332ddbaf7d4fee414b66') in 0.001696 seconds
+  Time since last request: 15.500759 seconds.
+  path: Assets/GrabeSettings.cs
+  artifactKey: Guid(3ec2d32c79fc44cdc8f22af4bbf05b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrabeSettings.cs using Guid(3ec2d32c79fc44cdc8f22af4bbf05b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f34cff11aff0fca820ec2bf78b3733') in 0.000452 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)CornerLight.prefab
-  artifactKey: Guid(7232880492f88cd4d9624a501fc37aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)CornerLight.prefab using Guid(7232880492f88cd4d9624a501fc37aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972de8414821f5714e9ea95dfc9174a') in 0.001601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)BedsideTable.prefab
-  artifactKey: Guid(f34f09e70e02cc94683d8dbaaf079f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)BedsideTable.prefab using Guid(f34f09e70e02cc94683d8dbaaf079f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d646c12d363b210dc85071519564022') in 0.001477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)KitchenSink.prefab
-  artifactKey: Guid(5c53a6c9c85b969488e8513f82ebf8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)KitchenSink.prefab using Guid(5c53a6c9c85b969488e8513f82ebf8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17073823e6b38a4cc49def88636e645f') in 0.001455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Drawer1.prefab
-  artifactKey: Guid(676edecf7cf6d7645a15b3550dce3e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Drawer1.prefab using Guid(676edecf7cf6d7645a15b3550dce3e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edb826f37ec8eef463a738696afdd3b') in 0.001616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Storage1.prefab
-  artifactKey: Guid(97bc4339b3151c34799878d35be91e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Storage1.prefab using Guid(97bc4339b3151c34799878d35be91e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4369ccca51b61eff73d87c9d5b886e61') in 0.001567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Stove.prefab
-  artifactKey: Guid(3e3c34c03ce58074fbfcfcdf18b4dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Stove.prefab using Guid(3e3c34c03ce58074fbfcfcdf18b4dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a476417e669e5fc384fdfe5b5c86953d') in 0.001510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)SoapDispenser.prefab
-  artifactKey: Guid(6a3dbb2a6b4da624abc81f5dc716f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)SoapDispenser.prefab using Guid(6a3dbb2a6b4da624abc81f5dc716f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ee559b8d2d45a3f41da1b8a4d1a8b5') in 0.001456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Mirror1.prefab
-  artifactKey: Guid(1054fb16f1ee4104ca711b702ac76af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Mirror1.prefab using Guid(1054fb16f1ee4104ca711b702ac76af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275ebc710dee5ee1e715eb51078aabad') in 0.001540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase3.prefab
-  artifactKey: Guid(dd9970b340623644eb4b3204eee4458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase3.prefab using Guid(dd9970b340623644eb4b3204eee4458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e192e792b89e9be8f3b652425b75fa8') in 0.001552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Fridge.prefab
-  artifactKey: Guid(5e5be735ac697564c9d232fa4619bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Fridge.prefab using Guid(5e5be735ac697564c9d232fa4619bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee341596ce439eb633a410e0293e2c9') in 0.001592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Mirror2.prefab
-  artifactKey: Guid(bebe37461aa0901409254caebff7ac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Mirror2.prefab using Guid(bebe37461aa0901409254caebff7ac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51247725cd27b9372cd12b1933615312') in 0.001583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Container4.prefab
-  artifactKey: Guid(88853fd459048b8449314defca9e8f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Container4.prefab using Guid(88853fd459048b8449314defca9e8f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199f70abc4466d9156f39c6103115e35') in 0.002898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 246
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Drawer2.prefab
-  artifactKey: Guid(8ff4ad687e8a081468b81cfdd2d710e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Drawer2.prefab using Guid(8ff4ad687e8a081468b81cfdd2d710e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6d95875f0add8c8e54d11ae0901cc6') in 0.001614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Chair2.prefab
-  artifactKey: Guid(84ec177bc6599ae438ee9c03a98cad5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Chair2.prefab using Guid(84ec177bc6599ae438ee9c03a98cad5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db71d9412066f09a55ead15057f7c09c') in 0.001554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase1.prefab
-  artifactKey: Guid(d6faf5893276ac14a8693f2ceeb9fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)LaunchTable_vase1.prefab using Guid(d6faf5893276ac14a8693f2ceeb9fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60491cc8d8da0e80eb52b405b8910856') in 0.003356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)ShowerFace.prefab
-  artifactKey: Guid(d75d62e350e6ccb4fa03f56c0a8fd8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)ShowerFace.prefab using Guid(d75d62e350e6ccb4fa03f56c0a8fd8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa5610eb098a356a3b39a3402160227') in 0.001495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)KitchenIsland.prefab
-  artifactKey: Guid(255e79009c0081f4b90ea3205cc262c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)KitchenIsland.prefab using Guid(255e79009c0081f4b90ea3205cc262c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45311ed751e550b9dc75f0d2e56490d9') in 0.001541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 41
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)DiningChair.prefab
-  artifactKey: Guid(085a08379fc27ff4a97814747b8aeb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)DiningChair.prefab using Guid(085a08379fc27ff4a97814747b8aeb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77efcf18d9ad215bc4efec352ed2b54a') in 0.001573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)CoffeTable_smallPlant.prefab
-  artifactKey: Guid(579fa6f3f1bc72e49b3ff3c0b83f513d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)CoffeTable_smallPlant.prefab using Guid(579fa6f3f1bc72e49b3ff3c0b83f513d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab840ffef052e4846e1c995b668f5cf4') in 0.001739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Sofa_pillowT.prefab
-  artifactKey: Guid(38a6a1df4a5ef5f4b8107ff806b527c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Sofa_pillowT.prefab using Guid(38a6a1df4a5ef5f4b8107ff806b527c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4182d9bd628bfd1237fb08e5222ae2') in 0.001495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)DoubleBed.prefab
-  artifactKey: Guid(2223fa9f01f9e4745bcd93ad2fd7f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)DoubleBed.prefab using Guid(2223fa9f01f9e4745bcd93ad2fd7f5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171a338d7016c50da9a5177bae3321ba') in 0.001672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)ShoeRack.prefab
-  artifactKey: Guid(33fb3539e3441f94799c57bc3e6fb426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)ShoeRack.prefab using Guid(33fb3539e3441f94799c57bc3e6fb426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c2a667750446d9fba108b210289cf3') in 0.001451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)SmokeVent.prefab
-  artifactKey: Guid(cb011d3e851dd79499d8fbe7490394f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)SmokeVent.prefab using Guid(cb011d3e851dd79499d8fbe7490394f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b56fb8c591401cc3b36e589794fd15') in 0.001383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)CornerSofa_pillowT.prefab
-  artifactKey: Guid(138d0852e3d6a79458e885febb13bb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)CornerSofa_pillowT.prefab using Guid(138d0852e3d6a79458e885febb13bb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a266c487472e8883d34c8a17bad28c') in 0.001457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
